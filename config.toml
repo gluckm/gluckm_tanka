@@ -1,5 +1,5 @@
-baseurl = "/"
-title = "Hugo Tanka Theme Demo"
+baseurl = "https://gluckm.netlify.app/"
+title = "The Most Average Website"
 author = "Nan Xiao"
 canonifyurls = true
 languagecode = "en"
@@ -14,7 +14,7 @@ pygmentscodefences = true
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [params]
-  sitename = "Hugo Tanka Theme"
+  sitename = "The Most Average Website"
   faviconfile = "images/favicon.png"
   highlightjs = true
   highlightjslanguages = ["r", "python", "stan"]
@@ -36,12 +36,12 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\
     url = "/about/"
     weight = 2
 [[menu.primary]]
-    name = "GitHub"
+    name = "Research (incomplete)"
     url = "https://github.com/nanxstats"
     weight = 3
 [[menu.primary]]
-    name = "Twitter"
-    url = "https://twitter.com/nanxstats"
+    name = "Teaching (incomlete)"
+    url = "/teaching/"
     weight = 4
 [[menu.primary]]
     name = "Subscribe"
